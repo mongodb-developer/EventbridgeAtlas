@@ -54,8 +54,20 @@ Test whether the data is getting added in the collection.
 
 ## Integrate this with Eventbridge
 
--------------To Do-----------------
+1. Select the target to invoke when an event matches your event pattern or when schedule is triggered. In this case target would be **API Destination**. 
+![selectTarget](/images/eventbridge1)
 
+2. Select **Create a new API Destination**. 
+![newAPIDestination](/images/eventbridge2)
+
+3. Configure **API Destination Details** with details of the webhook you already created in previous step. Event bridge supports **Basic, OAuth and API Key Authorizations**
+![configureAPIDestination](/images/eventbridge3)
+
+4. You can add invocation HTTP parameters. 
+![configureParameters](/images/eventbridge4)
+
+5. Save and start pushing the data. You shoule be able to see it getting uploaded in Atlas cluster. 
+![dataPopulated](/images/eventbridge5)
 
 
 
