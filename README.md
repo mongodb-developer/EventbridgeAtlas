@@ -66,8 +66,11 @@ Test whether the data is getting added in the collection.
 4. You can add invocation HTTP parameters. 
 ![configureParameters](/images/eventbridge4)
 
+5. Name your connection. You will be able select a connection when you create an API destination.
+![defineConnection](/images/eventbridge5) 
+
 5. Save and start pushing the data. You shoule be able to see it getting uploaded in Atlas cluster. 
-![dataPopulated](/images/eventbridge5)
+![dataPopulated](/images/eventbridge6)
 
 
 
