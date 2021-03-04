@@ -2,20 +2,20 @@
 
 Demonstrates how Realm Webhooks can be invoked to perform CRUD operations on collections residing in MongoDB Atlas from the EventBridge API Endpoints option. 
 
-## Architectural overview
+## Architectural Overview
 ![Architecture](/images/Architecture1.png)
 
 
-## Prerequisites & setup
+## Prerequisites and Setup
 - clone this repo!
 - create a trial MongoDB Atlas account https://www.mongodb.com/cloud/atlas/register
 
-## Create cluster on MongoDB Atlas
+## Create a Cluster on MongoDB Atlas
 * Follow the steps [here](https://docs.atlas.mongodb.com/tutorial/create-new-cluster) to create a new database cluster
 * Configure database user, IP Whitelist and copy the connection string. Follow the steps [here](https://docs.atlas.mongodb.com/driver-connection)
 
 ## Create Realm Webhook
-Before we can write the code for our WebHook, we first need to configure it. The Configure Service WebHooks guide in the Realm documentation goes into more detail, but you will need to configure the following options:
+Before we can write the code for our webhook, we first need to configure it. The Configure Service Webhooks guide in the Realm documentation goes into more detail, but you will need to configure the following options:
 
 *Authentication type must be set to system
 *The HTTP method is POST
@@ -35,7 +35,7 @@ https://github.com/mongodb-developer/EventbridgeAtlas/blob/main/InsertFunction.j
 
 ![CreateFunction](/images/RealmFunction.png)
 
-## Test the webhook
+## Test the Webhook
 
 Copy the webhook URL in settings. Also copy sample curl command snapshot below:
 
