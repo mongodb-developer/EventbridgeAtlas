@@ -31,7 +31,7 @@ For our WebHook we need to write a function which:
 * Writes the object to MongoDB Atlas as a new document
 * Returns the correct status code and JSON body to eventbridge in the response
 
-https://github.com/pareshsaraf/EventbridgeAtlas/blob/main/InsertFunction.js does these steps. Copy this into Realm functions logic placeholder as shown in the below screenshot. 
+https://github.com/mongodb-developer/EventbridgeAtlas/blob/main/InsertFunction.js does these steps. Copy this into Realm functions logic placeholder as shown in the below screenshot. 
 
 ![CreateFunction](/images/RealmFunction.png)
 
