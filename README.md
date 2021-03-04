@@ -1,6 +1,6 @@
 # EventBridgeAtlas
 
-Demonstrates how Realm Webhooks can be invoked to perform CRUD operations on collections residing in MongoDB Atlas from the EventBridge API Endpoints option. 
+This demonstrates how Realm Webhooks can be invoked to perform CRUD operations on collections residing in MongoDB Atlas from the EventBridge API Endpoints option. 
 
 ## Architectural Overview
 ![Architecture](/images/Architecture1.png)
