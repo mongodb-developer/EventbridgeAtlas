@@ -58,19 +58,19 @@ Test whether the data is getting added in the collection.
 ![selectTarget](/images/eventbridge1.png)
 
 2. Select **Create a new API Destination**. 
-![newAPIDestination](/images/eventbridge2)
+![newAPIDestination](/images/eventbridge2.png)
 
 3. Configure **API Destination Details** with details of the webhook you already created in the previous step. EventBridge supports **Basic, OAuth and API Key Authorizations**
-![configureAPIDestination](/images/eventbridge3)
+![configureAPIDestination](/images/eventbridge3.png)
 
 4. You can add invocation HTTP parameters. 
-![configureParameters](/images/eventbridge4)
+![configureParameters](/images/eventbridge4.png)
 
 5. Name your connection. You will be able select a connection when you create an API destination.
-![defineConnection](/images/eventbridge5) 
+![defineConnection](/images/eventbridge5.png) 
 
 5. Save and start pushing the data. You shoule be able to see it being uploaded in your Atlas cluster. 
-![dataPopulated](/images/eventbridge6)
+![dataPopulated](/images/eventbridge6.png)
 
 
 
