@@ -55,7 +55,7 @@ Test whether the data is getting added in the collection.
 ## Integrate this with EventBridge
 
 1. Select the target to invoke when an event matches your event pattern or when schedule is triggered. In this case target would be **API Destination**. 
-![selectTarget](/images/eventbridge1)
+![selectTarget](/images/eventbridge1.png)
 
 2. Select **Create a new API Destination**. 
 ![newAPIDestination](/images/eventbridge2)
