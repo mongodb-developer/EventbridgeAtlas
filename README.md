@@ -19,7 +19,7 @@ Before we can write the code for our webhook, we first need to configure it. The
 
 *Authentication type must be set to system
 *The HTTP method is POST
-*Keep rest of the parameters deafult.
+*Keep rest of the parameters default.
 ![ConfigureWebhook](/images/RealmWebhook.png)
 
 ## Create Realm Function
