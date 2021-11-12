@@ -1,6 +1,6 @@
 # EventBridgeAtlas
 
-This demonstrates how Realm TTPS Endpointscan be invoked to perform CRUD operations on collections residing in MongoDB Atlas from the EventBridge API Endpoints option. 
+This demonstrates how Realm HTTPS Endpoints can be invoked to perform CRUD operations on collections residing in MongoDB Atlas from the EventBridge API Endpoints option. 
 
 ## Architectural Overview
 ![Architecture](/images/Architecture1.png)
